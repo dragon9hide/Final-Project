@@ -92,6 +92,24 @@ class recipieBook(Frame):
         #LOGIC
         def algo():
             print("WIP")
+            '''
+            results = []
+            if(searchtype == cat)
+                for i in range(len(book)):
+                    if(searchword == book[i][1])
+                        results.append(book[i])
+                    else
+                        if(searchtype == name):
+                            for i in range(len(book)):
+                                if(searchword == book[i][1])
+                                    results.append(book[i])
+                                else
+                                    if(searchtype == ingred)
+                                        for i in range(len(book)):
+                                            for j in range(2,len(book[i]))
+                                                if(searchword == book[i][j])
+                                                    results.append(book[i])
+            '''
             self.book[0].toPrint()
                 
         def new():
